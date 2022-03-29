@@ -1,0 +1,69 @@
+@import "./fonts.css";
+
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat' , sans-serif ;
+
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.container{
+    max-width: 930px;
+
+}
+.d-flex{
+    display: flex;
+}
+.justify-between{
+    justify-content: space-between;
+}
+.justify_center{
+    justify-content: center;
+}
+.align-center{
+    align-items: center;
+}
+
+
+.row{
+    display: flex;
+}
+.col-6{
+    width: 50%;
+}
+.col-4{
+    width: 33.33333%;
+}
+
+
+.about_card{
+    height: 380px;
+    width: 100%;
+    /*padding: ;*/
+}
+.about_card_cat1{
+    background: url("../images/cat1.png")no-repeat center/cover;
+}
+.about_card_cat2{
+    background: url("../images/cat2.png")no-repeat center/cover;
+}
+.about_card_cat3{
+    background:url("../images/cat3.png")no-repeat center/cover;
+
+}
+.about_card_title{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    color: #000000;
+
+}
